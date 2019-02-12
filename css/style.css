@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Dancing+Script|Josefin+Sans');
+* {
+  color: #dadbdd;
+  font-family: "Josefin sans";
+}
+.bg_nonei {
+  background: none:!important;
+  background-color: none!important;
+}
+.bg-color1 {
+  background-color: #1b1b1b;
+}
+.bg-color1i {
+  background-color: #1b1b1b !important;
+}
+.bg-color2 {
+  background-color: #000000;
+}
+.bg-color2i {
+  background-color: #000000 !important;
+}
+.bg-color3 {
+  background-color: #414040;
+}
+.bg-color3i {
+  background-color: #414040 !important;
+}
+.b-none {
+  border: none;
+}
+.b-nonei {
+  border: none!important;
+}
+.b-radiusi {
+  border-radius: 0!important;
+}
+.shadow-box {
+  box-shadow: 1px 1px 10px black;
+}
+.background_marron {
+  background-color: #000000;
+}
+.font_1 {
+  font-family: "anton";
+}
+.font_2 {
+  font-family: "Josefin sans" !important;
+}
+.font_3 {
+  font-family: "Dancing script";
+}
+.color3 {
+  color: #414040;
+}
+.h-30 {
+  height: 35%;
+}
+/*-----------HEADER----------*/
+header {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2em;
+  position: relative;
+  top: 0;
+  background-color: #000000;
+  box-shadow: 2px 2px 5px #000000;
+}
+header nav {
+  width: 100%;
+  height: 100%;
+}
+header nav a {
+  height: 100%;
+}
+header nav a div {
+  height: 100%;
+}
+header nav a div img {
+  height: 100%;
+}
+.btn-account {
+  text-align: right;
+}
+.color2 {
+  background-color: #1b1b1b;
+  box-shadow: 2px 2px 20px black;
+}
+.color2 h2 {
+  font-family: "anton";
+}
+.color2 h2 span {
+  font-family: "Dancing script";
+}
+.color1 {
+  background-color: #000000;
+  min-height: 100vh;
+  box-shadow: 2px 2px 5px #000000;
+}
+a {
+  color: #414040 !important;
+}
+.main_edit .title_edit ::-webkit-input-placeholder {
+  text-align: center;
+  color: white;
+  font-family: "Josefin sans";
+}
+.main_edit .content_edit ::-webkit-input-placeholder {
+  color: white;
+  font-family: "Josefin sans";
+  font-size: 1em;
+  padding: 12px;
+}
+.main_edit .submit-edit {
+  width: 10%;
+}
+select,
+option {
+  color: white!important;
+}
+/*-----------FOOTER----------*/
+footer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1em;
+  position: relative;
+  bottom: 0;
+  z-index: 999999;
+  background-color: #000000;
+  justify-content: space-around;
+  box-shadow: 2px 2px 5px #000000;
+}
+footer .copyright {
+  height: 40px;
+  box-shadow: 0px 0px 5px black;
+}
+footer .copyright p {
+  line-height: 40px;
+}
+/*--------NAVIGATION GESTION DE COMPTE --------*/

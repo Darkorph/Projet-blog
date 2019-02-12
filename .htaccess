@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^post-([0-9]+)$   index.php?page=details&id=$1 [L]
+RewriteRule ^edit-post-([0-9]+)$   index.php?page=edit-new&action=edit&id=$1 [L]
+RewriteRule ^home   index.php?page=home [L]
+RewriteRule ^logout   index.php?page=home&stopsession=yes [L]
+RewriteRule ^new-post   index.php?page=edit-new [L]
+RewriteRule ^Nouvel-utilisateur   index.php?page=new-user [L]
+RewriteRule ^Articles-de-l-auteur-([0-9]+)$   index.php?page=posts_author&&id=$1 [L]
+RewriteRule ^Articles-de-la-categorie-([0-9]+)$   index.php?page=posts_category&&id=$1 [L]
+RewriteRule ^Compte-de-([a-zA-Z]+)$   index.php?page=gestion-compte&username=$[a-zA-Z] [L]
+</IfModule>
